@@ -12,6 +12,19 @@ App.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
 							url: "/user/details",
 							templateUrl: "display.html"
 						})
+						.state('hide', {
+							url: "/user/hide",
+							templateUrl: "display.html"
+						})
+						.state('fuse', {
+							url: "/user/fusr",
+							templateUrl: "display.html"
+						})
+						.state('dark', {
+							url: "/user/dark",
+							templateUrl: "display.html"
+						})
+						
 
 					
 			}]);
